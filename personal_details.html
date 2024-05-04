@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details - Major Recommendaition System</title>
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/style-form.css">
+	
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-light" style="background-color: #EBE6DA; height:120px;>
+  <a class="navbar-brand" href="index.html">
+    <img src="../img/logo.png" class="d-inline-block align-top" alt="Logo">
+  </a>
+</nav>
+
+<div class="container mt-5">
+    <div class="card shadow rounded">
+        <div class="card-body">
+            <h2 class="card-title text-center mb-4" style="color:#3399FF;" > <i style="font-size:35px;color:#3399FF;" class="fas fa-user-circle"></i>  Let Us Know You</h2>
+
+            <form id="personalDetailsForm">
+                <div class="form-group text-center mt-4">
+                    <label for="userName"><b>Name</b></label>
+                    <input type="text" class="form-control" id="userName" required>
+                </div>
+                <div class="form-group">
+                    <label for="userAge"><b>Age</b></label>
+                    <input type="number" class="form-control" id="userAge" min="10" max="100" required>
+                </div>
+                <div class="form-group text-center">
+                    <label><b>Desired Degree:</b></label>
+                    <div id="degreeOptions" class="btn-group btn-group-toggle" data-toggle="buttons">
+                        
+                        <label class="btn btn-secondary degree-option btn-bachelor">
+                            <input type="radio" name="degreeSelection" value="Bachelor" autocomplete="off"> BACHELOR
+						</label>
+                        
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Link to the Controller -->
+<script src="../Controllers/personalDetailsController.js"></script>
+<!-- Link to the Model -->
+<script src="../Models/userModel.js"></script>
+</body>
+</html>

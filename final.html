@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	  <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <title>Possible Majors - Major Recommendation System</title>
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+	  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../style/bootstrap.min.css">
+      <!-- style css -->
+	  <link rel="stylesheet" href="../style/style.css">
+      <link rel="stylesheet" href="../style/style-lp.css">
+	  <link rel="stylesheet" href="../style/style-final.css">
+
+	  
+      <!-- responsive-->
+      <link rel="stylesheet" href="../style/responsive.css">
+      <!-- awesome fontfamily -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://fontawesome.com/v5/icons/home?f=classic&s=solid&pc=%231f07da">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	  	
+	
+	
+</head>
+<body>
+
+<header>
+   <!-- header inner -->
+   <div class="head-top">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-3">
+               <div class="logo">
+                  <a href="home.html"><img src="../img/logo.png" /></a>
+               </div>
+            </div>
+            <div class="col-sm-9 text-right">
+               <a href="home.html" class="btn btn-primary">
+                  <i class="fas fa-home"></i> Home
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+
+
+<!-- end header -->
+
+<div class="container mt-5">
+    <div class="card shadow rounded">
+        <div class="card-body">
+            <h2 class="card-title text-center mb-4">Possible Majors</h2>
+
+            <!-- Recap Section -->
+            <p class="message" id="recapSection"></div>
+
+            <!-- Possible Majors Section -->
+            <h4 class="text-center mb-4">Based on your selections, here are some possible majors:</h4>
+            <ul id="possibleMajors" class="list-group"></ul>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+            </div>
+            <input type="email" id="emailInput" class="form-control" placeholder="Enter Email Address" aria-label="Email Address" aria-describedby="sendButton">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="sendButton">Send Results</button>
+            </div>
+        </div>
+        <div id="feedback" class="text-danger"></div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../Controllers/FinalViewController.js"></script>
+<script src="../Models/MajorsModel.js"></script>
+
+<!-- Javascript files-->
+<script src="../Models/jquery.min.js"></script>
+<script src="../Models/bootstrap.bundle.min.js"></script>
+<script src="../Models/jquery-3.0.0.min.js"></script>
+<script src="../Models/custom.js"></script>
+</body>
+</html>

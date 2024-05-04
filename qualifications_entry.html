@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications Entry - Major Recommendation System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/style-input.css">
+</head>
+<body>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">  <a class="navbar-brand" href="#">
+    <img src="../img/logo.png" class="d-inline-block align-top" alt="">
+  </a>
+</nav>
+
+<div class="container mt-5">
+    <div class="card shadow rounded">
+        <div class="card-body text-center">
+            <h2 class="card-title mb-4">Enter Your Qualifications</h2>
+            <p class="message">Before exploring your majors, please enter your overall grade.</p>
+            <div class="form-group mb-4">
+                <input type="number" id="overallGrade" class="form-control" placeholder="Enter your overall grade" min="0" max="100">
+            </div>
+            <button id="nextButton" class="btn btn-primary">Next</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="../Controllers/qualificationsEntryController.js"></script>
+<script src="../Models/QualificationsModel.js"></script>
+</body>
+</html>

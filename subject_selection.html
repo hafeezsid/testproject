@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Selection - Major Recommendation System</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">  <a class="navbar-brand" href="index.html">
+    <img src="../img/logo.png" class="d-inline-block align-top" alt="Logo">
+  </a>
+</nav>
+
+<div class="container mt-5">
+    <div class="card shadow rounded">
+        <div class="card-body">
+            <h2 class="card-title text-center mb-4">Select Your Interests</h2>
+            <p id="personalizedMessage" class="text-center"></p>
+            <div id="subjectOptions" class="text-center">
+                <!-- Subject bubbles will be inserted here -->
+            </div>
+            <div class="text-center mt-4">
+                <button id="nextButton" class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="../Controllers/subjectSelectionController.js"></script>
+<script src="../Models/SubjectsModel.js"></script>
+</body>
+</html>

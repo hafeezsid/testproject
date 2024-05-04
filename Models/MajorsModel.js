@@ -5,7 +5,7 @@ class MajorsModel {
     }
 
     fetchPossibleMajors(subjects, grade) {
-        const apiEndpoint = 'http://localhost:5000/majors/mvc/';
+        const apiEndpoint = '../testproject/majors/mvc/';
         const requestBody = { subjects, grade };
 
         return fetch(apiEndpoint, {

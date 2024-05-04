@@ -16,7 +16,7 @@ class SubjectsModel {
 
     // Load majors and subjects from an external source (e.g., JSON file)
     loadMajorsAndSubjects() {
-        return fetch('../Models/majors.json')
+        return fetch('../testproject/Models/majors.json')
             .then(response => response.json())
             .then(data => {
                 this.majors = data;

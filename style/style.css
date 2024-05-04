@@ -1,0 +1,285 @@
+/* Custom styles for the Major Recommendation System */
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Styles for the degree options container */
+#degreeOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between bubbles */
+}
+
+/* Styles for the labels and form elements */
+.form-group label {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+	}
+
+/* Additional styles for degree bubbles */
+.degree-option {
+    margin: 10px; /* Space between bubbles */
+    border-radius: 20px; /* Rounded edges for bubble appearance */
+    background-color: #5DADE2 ; /* Light grey background for bubbles */
+    color: #333; /* Dark text for contrast */
+    padding: 10px 20px; /* Padding for the bubbles */
+    cursor: pointer; /* Cursor to indicate clickable items */
+    border: none; /* No border */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for degree bubbles */
+.degree-option:hover {
+    background-color: #d6d6d6; /* Slightly darker grey on hover */
+    color: white;
+}
+
+/* Selected degree bubble style with animation */
+.degree-option.active, .degree-option.active:hover {
+    background-color: #007bff; /* Bootstrap primary color for active bubbles */
+    color: white;
+    animation: pulse 0.6s ease;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Ensure there's space at the bottom of the container for aesthetic balance */
+
+
+/* Ensure degree options are not too large on bigger screens */
+.degree-option {
+    max-width: calc(50% - 20px);
+}
+
+/* Responsive alignment for smaller screens */
+@media (max-width: 576px) {
+    .degree-option {
+        max-width: 100%;
+    }
+}
+
+/* Custom styles for subject selection bubbles */
+
+.subject-option {
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px; /* Adjust padding as needed */
+
+    margin: 3px;
+    border-radius: 15px; /* Slightly more rounded corners for a softer look */
+    background-color: #f0f0f0; /* Light grey background for unselected bubbles */
+    color: #333; /* Dark text for better readability */
+    padding: 5px 10px; /* Reduced padding to decrease bubble size */
+    font-size: 0.8rem; /* Smaller font size for the text inside the bubble */
+    border: none; /* No border for a cleaner look */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+}
+
+.subject-option:hover {
+    background-color: #d6d6d6; /* Slightly darker grey on hover */
+    color: white;
+}
+
+.subject-option.active, .subject-option.active:hover {
+    background-color: #007bff; /* Bootstrap primary blue for active bubbles */
+    color: white;
+}
+
+.subject-option i.fas.fa-check {
+    margin-right: 5px; /* Space between the check icon and the text */
+}
+
+h3 {
+    font-size: 1.5rem; /* Increase font size for better visibility */
+    color: #007bff; /* A pleasant blue color, feel free to choose your own */
+    margin-bottom: 15px; /* Add more space below the domain name */
+    padding: 10px; /* Add some padding around the text */
+    border-bottom: 2px solid #007bff; /* A subtle bottom border */
+    width: fit-content; /* Adjust width to fit the content */
+    margin-left: auto; /* Center align the domain names */
+    margin-right: auto; /* Center align the domain names */
+}
+
+.domain-container {
+    margin-bottom: 30px; /* Add space below each domain's subjects */
+}
+
+
+/* Message styling */
+.message {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Light background for the message box */
+   	border-right.list-group-item {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6f9e6; /* Light green background */
+    border-left: 5px solid #28a745; /* Green border on the left */
+    margin-bottom: 10px;
+    color: #333; /* Dark text color for better readability */
+}
+
+.list-group-item i {
+    margin-right: 10px;
+    color: #28a745; /* Green color for the icon */
+}
+
+
+
+
+/* Enhance the input field for better focus */
+#overallGrade {
+    margin-top: 10px; /* Add some space above the input */
+    border: 2px solid #007bff; /* Blue border for consistency */
+    border-radius: 5px; /* Rounded corners for the input field */
+}
+
+/* Next button enhancement */
+#nextButton {
+    margin-top: 20px; /* Add space above the button */
+    padding: 10px 30px; /* Larger padding for a bigger button */
+    font-size: 1.1rem; /* Slightly larger font for the button text */
+    border-radius: 5px; /* Rounded corners for the button */
+}
+
+
+#possibleMajors {
+            background-color: #F5F5F5;
+			box-shadow: -8px 0px 8px ;
+            padding: 30px;
+			margin:15px;
+        }
+#possibleMajors li {
+            color: #6a5acd;
+            font-weight: bold;
+            list-style-type: square;
+            margin-bottom: 5px;
+        }
+        
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#possibleMajors {
+            background-color: #F5F5F5;
+			box-shadow: -8px 0px 8px ;
+            padding: 30px;
+			margin:15px;
+        }
+#possibleMajors li {
+            color: #6a5acd;
+            font-weight: bold;
+            list-style-type: square;
+            margin-bottom: 5px;
+        }
+        
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+ .head-top {
+            background-color: #e3f2fd;
+            color: #ffffff; /* Change text color if needed */
+        }
+
+
+    /* Reduce the size of the text boxes */
+#userName, #userAge {
+        width: 50%; /* Make the text boxes full width */
+        max-width: 50%; /* Ensure the text boxes don't exceed container width */
+    }
+
+    /* Center the form vertically */
+#personalDetailsForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Set the form height to 100% of viewport height */
+    }
+	
+	
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Adjust the size of the input box */
+.form-control {
+    width: 70%; /* Reduce the width of the input box */
+    height: calc(1.2em + .5rem + 2px); /* Adjust the height as needed */
+    font-size: 0.9rem; /* Reduce the font size */
+}
+
+/* Center the container and its child elements */
+.container {
+    max-width: 200px; /* Reduce the size of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+/* Additional styling for card and card-body */
+.card {
+    width: 100%; /* Ensure the card fills the container width */
+}
+
+.card-body {
+    padding: 0.5rem; /* Add padding to the card body */
+}
+

@@ -1,0 +1,27 @@
+/* Additional custom CSS */
+        .container {
+            max-width: 600px; /* Reduce the width of the container */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+
+        .form-control {
+            width: calc(100% - 30px); /* Reduce the width of the text box to fit the container */
+        }
+
+        .card-body {
+            padding: 1.5rem; /* Add padding to the card body */
+        }
+
+        /* Center all elements */
+        .text-center {
+            text-align: center;
+        }
+		
+		.card {
+            box-shadow: none; /* Remove the box shadow */
+				
+}
+
+		.message {
+            box-shadow: none; /* Remove the box shadow */
+        }

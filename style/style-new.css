@@ -1,0 +1,298 @@
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .payment-form {
+			max-width: 400px;
+    }
+}
+
+
+.card:hover {
+            transform: scale(1.05);
+        }
+
+.content-overlay {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+			text-align: center;
+			color: #fff;
+}
+
+/* Custom typography for the welcome message */
+.welcome-heading {
+			font-family: 'Roboto', sans-serif; /* Updated font family */
+			font-size: 1.4rem;
+			font-weight: bold;
+			letter-spacing: 2px;
+			text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+			margin-bottom: 20px;
+			color: white; 
+			
+        }
+}
+
+.welcome-text {
+			font-family: 'Poppins', sans-serif;
+			font-size: 1.5rem;
+			font-weight: 300;
+			letter-spacing: 1px;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+			margin-bottom: 30px;
+}
+
+/* Style for product cards */
+.card {
+			margin-bottom: 20px;
+			border: none;
+			box-shadow: 0 4px 6px rgba(20, 20, 20, 0.3);
+			position: relative;
+			overflow: hidden;
+			transition: transform 0.3s ease;
+			height:250px;
+}
+
+.card-title {
+			font-size: 14px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			
+}
+
+.card-text {
+			font-size: 12px;
+			color: black;
+			margin-bottom: 20px;
+			text-align:justify;
+			}
+
+.btn-primary {
+			background-color: rgb(14, 144, 237);
+			border-color: #3f51b5;
+}
+
+.btn-primary:hover {
+			background-color: black;
+			border-color: #303f9f;
+}
+
+.form-label {
+			font-weight: bold;
+}
+
+.form-control {
+			margin-bottom: 20px;
+}
+
+
+
+/* Review form styles */
+.review-form {
+			margin-top: 50px;
+			padding-top:20px;
+}
+
+.stars {
+			color: #ffd700;
+			cursor: pointer;
+}
+
+.stars:hover,
+.stars.checked {
+			color: #ffbb00;
+}
+
+.review-button {
+			background-color: #3f51b5;
+			border-color: #3f51b5;
+}
+
+.review-button:hover {
+			background-color: #303f9f;
+			border-color: #303f9f;
+}
+
+.avatar {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			margin-right: 10px;
+}
+
+.review {
+			margin: 20px;
+}
+
+.containerabout {
+			max-width: 800px;
+			margin: 50px auto;
+}
+
+h1 {
+			font-size: 3rem;
+			font-weight: bold;
+			margin-bottom: 40px;
+			color: #333;
+}
+
+p {
+			font-size: 1.2rem;
+			line-height: 1.6;
+			color: #555;
+	}
+	
+.rev {
+			margin:10px;
+			padding-left:40px;
+}
+
+.navbar {
+            transition: background-color 0.3s ease;
+        }
+		
+.navbar:hover {
+            background-color: #f8f9fa; 
+        }
+		
+.navbar-nav .nav-link {
+			color: black !important;
+			font-weight:bold;
+		}
+		
+ .card-img-top {
+            height: 200px; 
+            object-fit: cover; 
+ }
+ 
+ .custom-btn {
+			background-color: green;
+}
+
+
+.stars .fas.fa-star,
+    .stars .far.fa-star {
+			color: #581845;
+    }
+	
+	 .stars input[type="radio"] {
+            display: none;
+        }
+        
+        .stars label {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .stars label:before {
+            content: '\f005';
+            font-family: 'Font Awesome 5 Free';
+            display: inline-block;
+            font-weight: 900;
+            font-size: 24px;
+            color: #ccc;
+        }
+        
+        .stars input[type="radio"]:checked ~ label:before {
+            color: #581845; 
+        }
+		
+		.btn-bckg  {
+			background-color:green;
+			
+		}
+		
+		        /* Animation for heading */
+        h1 {
+            animation: fadeInDown 1s ease-out;
+			color: #581845 ;
+        }
+
+        /* Animation for paragraphs */
+        p {
+            animation: slideInLeft 1s ease-out;
+			
+        }
+
+        /* Keyframes for fadeInDown */
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            } 
+        }
+
+        /* Keyframes for slideInLeft */
+        @keyframes slideInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Transition for navbar */
+        .navbar {
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar:hover {
+            background-color: #f8f9fa; /* Change to desired color on hover */
+        }
+		
+		
+	.fa-id-card {
+		
+		color:blue;
+		font-size:40px;
+		
+	}
+	
+	.fa-school
+	{
+		color:blue;
+		font-size:40px;
+		
+	}
+	
+	.fa-chart-area
+	{
+		color:blue;
+		font-size:40px;
+		
+	}
+	
+	.fa-clipboard-list
+	{
+		color:blue;
+		font-size:40px;
+		
+	}
+	
+	.fa-envelope
+	
+	{
+		
+		color:blue;
+		font-size:40px;
+		
+		
+	}
+	
+	.fa-user-lock
+	
+	{
+		
+		color:blue;
+		font-size:40px;
+		
+	}
+

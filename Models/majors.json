@@ -1,0 +1,227 @@
+[
+ {
+  "Major": "Business Administration",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Mathematics, Economics, Business Studies, English"
+ },
+ {
+  "Major": "Business Management",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Business Studies, Management, Economics, Mathematics"
+ },
+ {
+  "Major": "Marketing",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Marketing, Business Studies, Mathematics, English"
+ },
+ {
+  "Major": "Finance",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Finance, Economics, Mathematics, Business Studies"
+ },
+ {
+  "Major": "Computer Science",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Mathematics, Computer Programming, Physics, English"
+ },
+ {
+  "Major": "Cybersecurity",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Computer Science, Mathematics, Cybersecurity, English"
+ },
+ {
+  "Major": "Computer Engineering",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Mathematics, Physics, Computer Science, English"
+ },
+ {
+  "Major": "Information Technology",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Computer Science, Information Technology, Mathematics, English"
+ },
+ {
+  "Major": "Data Science",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Mathematics, Statistics, Computer Science, English"
+ },
+ {
+  "Major": "Psychology",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Psychology, Biology, Mathematics, English"
+ },
+ {
+  "Major": "Nursing",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Biology, Chemistry, Anatomy, Physiology, English"
+ },
+ {
+  "Major": "Biology",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Biology, Chemistry, Mathematics, English"
+ },
+ {
+  "Major": "English Literature",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "English Literature, Language, Communication, English"
+ },
+ {
+  "Major": "Engineering",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Mathematics, Physics, Chemistry, English"
+ },
+ {
+  "Major": "Education",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Education Studies, Psychology, Mathematics, English"
+ },
+ {
+  "Major": "Economics",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Economics, Mathematics, Statistics, English"
+ },
+ {
+  "Major": "Political Science",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Political Science, History, Economics, English"
+ },
+ {
+  "Major": "Sociology",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Sociology, Anthropology, Psychology, English"
+ },
+ {
+  "Major": "History",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "History, Social Studies, Humanities, English"
+ },
+ {
+  "Major": "Mathematics",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Mathematics, Calculus, Algebra, Statistics, English"
+ },
+ {
+  "Major": "Fine Arts",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Fine Arts, Art History, Studio Art, English"
+ },
+ {
+  "Major": "Communications",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Communications, Media Studies, Journalism, English"
+ },
+ {
+  "Major": "Environmental Science",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Environmental Science, Biology, Chemistry, English"
+ },
+ {
+  "Major": "International Relations",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "International Relations, Political Science, History, English"
+ },
+ {
+  "Major": "Chemistry",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Chemistry, Mathematics, Physics, English"
+ },
+ {
+  "Major": "Physics",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Physics, Mathematics, Chemistry, English"
+ },
+ {
+  "Major": "Graphic Design",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Graphic Design, Art, Communication, English"
+ },
+ {
+  "Major": "Architecture",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Architecture, Mathematics, Physics, Art, English"
+ },
+ {
+  "Major": "Public Health",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Public Health, Biology, Statistics, Sociology, English"
+ },
+ {
+  "Major": "Philosophy",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Philosophy, Logic, Ethics, English"
+ },
+ {
+  "Major": "Film Studies (Media)",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Film Studies, Media Production, Communication, English"
+ },
+ {
+  "Major": "Health Sciences",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Biology, Chemistry, Anatomy, Physiology, English"
+ },
+ {
+  "Major": "Forensic Science",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Forensic Science, Biology, Chemistry, Criminal Justice, English"
+ },
+ {
+  "Major": "Fashion Design",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Fashion Design, Textiles, Sewing, English"
+ },
+ {
+  "Major": "Journalism",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Journalism, Media Studies, Communication, English"
+ },
+ {
+  "Major": "Religious Studies",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Religious Studies, Theology, History, Philosophy, English"
+ },
+ {
+  "Major": "Human Resources",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Human Resources Management, Psychology, Business Studies, English"
+ },
+ {
+  "Major": "Public Relations",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Public Relations, Communications, Marketing, English"
+ },
+ {
+  "Major": "Law",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Law, Political Science, History, English"
+ },
+ {
+  "Major": "Islamic Banking",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Islamic Finance, Banking Principles, Economics, Arabic, English"
+ },
+ {
+  "Major": "Artificial Intelligence",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Computer Science, Mathematics, Artificial Intelligence, English"
+ },
+ {
+  "Major": "Medicine",
+  "Qualifications Percentage": "95% or above",
+  "Required Subjects for Admission": "Biology, Chemistry, Physics, Mathematics, English"
+ },
+ {
+  "Major": "Dentistry",
+  "Qualifications Percentage": "85% or above",
+  "Required Subjects for Admission": "Biology, Chemistry, Physics, Mathematics, English"
+ },
+ {
+  "Major": "Pharmacy",
+  "Qualifications Percentage": "80% or above",
+  "Required Subjects for Admission": "Biology, Chemistry, Mathematics, Physics, English"
+ },
+ {
+  "Major": "Nutrition",
+  "Qualifications Percentage": "75% or above",
+  "Required Subjects for Admission": "Nutrition, Biology, Chemistry, Physiology, English"
+ }
+]

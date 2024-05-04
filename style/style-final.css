@@ -1,0 +1,48 @@
+
+	
+	body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    padding: 20px;
+}
+	
+ #emailInput {
+            width: 150px; /* Set the width to 100% of its container */
+        }
+
+
+#wider-container .container {
+    width: 800px;
+}
+
+#final-page .input-group {
+    width: 100%;  /* Ensures the input group uses the full width of its container */
+    max-width: 800px;  /* Restricts the maximum width to prevent overly wide fields */
+}
+
+@media (max-width: 768px) {
+    #final-page .col-md-8.offset-md-2,
+    #final-page .col-lg-6.offset-lg-3 {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        position: relative;
+        left: 0%;
+    }
+}
+	

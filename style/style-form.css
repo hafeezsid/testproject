@@ -1,0 +1,39 @@
+
+        /* Custom CSS styles */
+        .container {
+            max-width: 600px; /* Reduce the size of the container */
+            margin: 0 auto; /* Center the container horizontally */
+            text-align: center; /* Center all text inside the container */
+        }
+
+        /* Reduce the size of the text boxes */
+        .form-control {
+            width: 100%; /* Make the text boxes full width */
+            max-width: 100%; /* Ensure the text boxes don't exceed container width */
+            height: calc(2em + .25rem + 2px); /* Reduce the height of the text boxes */
+            font-size: 0.9rem; /* Reduce the font size */
+        }
+
+        /* Reduce the size of the Bachelor button */
+        .degree-option {
+            padding: 0.6rem 0.6rem; /* Reduce the padding of the button */
+            font-size: 0.9rem; /* Reduce the font size of the button */
+        }
+		
+		
+
+	    .btn-bachelor
+		          {
+			
+			background-color: #3399FF;
+            color: #ffffff; /* Change text color if needed */
+			border-radius:5px;
+        }
+			
+	       .btn-bachelor:hover
+		          {
+			
+			background-color: #EBE6DA;
+            color: black; /* Change text color if needed */
+			font-weight:bold;
+        }
